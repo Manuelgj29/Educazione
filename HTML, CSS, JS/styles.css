@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue; /* colore di sfondo */
+    font-family: Arial, sans-serif; /* font del testo */
+}
+
+h1 {
+    color: red; /* titolo rosso */
+}
+
+p {
+    color: blue; /* paragrafo blu */
+}
