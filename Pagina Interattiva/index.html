@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Scopri Informatica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1 class="logo">Informatica Demo</h1>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#corsi">Cosa Imparerai</a></li>
+      <li><a href="#quiz">Quiz</a></li>
+      <li><a href="#contatti">Contatti</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero section -->
+  <header id="home" class="hero">
+    <h2>✨ Scopri il mondo dell'Informatica ✨</h2>
+    <p>Vuoi iscriverti a Informatica? Ecco un assaggio di ciò che imparerai!</p>
+    <button onclick="saluta()">Inizia il viaggio</button>
+    <p id="messaggio"></p>
+  </header>
+
+  <!-- Sezione corsi -->
+  <section id="corsi" class="info">
+    <h3>Cosa imparerai</h3>
+    <div class="card" onclick="mostraInfo('java')">💻 Java</div>
+    <div class="card" onclick="mostraInfo('html')">🌐 HTML</div>
+    <div class="card" onclick="mostraInfo('css')">🎨 CSS</div>
+    <div class="card" onclick="mostraInfo('js')">⚡ JavaScript</div>
+    <p id="info-text"></p>
+  </section>
+
+  <!-- Quiz -->
+  <section id="quiz" class="quiz">
+    <h3>Mini Quiz</h3>
+    <p>Quale linguaggio serve per dare stile alle pagine web?</p>
+    <button onclick="risposta('html')">HTML</button>
+    <button onclick="risposta('css')">CSS</button>
+    <button onclick="risposta('js')">JavaScript</button>
+    <p id="quiz-result"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contatti">
+    <p>© 2025 Informatica Demo – Contattaci per saperne di più</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
