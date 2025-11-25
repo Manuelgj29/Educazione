@@ -1,12 +1,15 @@
+/* Blocco per mettere il colore allo sfondo */
 body {
     background-color: lightblue; /* colore di sfondo */
     font-family: Arial, sans-serif; /* font del testo */
 }
 
+/* Blocco per il colore del titolo */
 h1 {
     color: red; /* titolo rosso */
 }
 
+/* Blocco per il colore del paragrafo */
 p {
     color: blue; /* paragrafo blu */
 }

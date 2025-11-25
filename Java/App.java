@@ -18,26 +18,16 @@ public class App {
         System.out.println("Inserisci due numeri interi:");
         int N1 = sc.nextInt();
         int N2 = sc.nextInt();
-        System.out.println("Scegli l'operazione da eseguire (+, -, *, /):");
-        String operazione = sc.next();
-        if (operazione.equals("+")) {
-            System.out.println("Risultato: " + (N1 + N2));
-        } else if (operazione.equals("-")) {
-            System.out.println("Risultato: " + (N1 - N2));
-        } else if (operazione.equals("*")) {
-            System.out.println("Risultato: " + (N1 * N2));
-        } else if (operazione.equals("/")) {
-            if (N2 != 0) {
-                System.out.println("Risultato: " + (N1 / N2));
-            } else {
-                System.out.println("Errore: Divisione per zero non consentita.");
-            }
-        } else {
-            System.out.println("Operazione non valida.");
-        }
-        sc.close();
+        int somma = N1 + N2;
+        int sottrazione = N1 - N2;
+        int moltiplicazione = N1 * N2;
+        double divisione = (double) N1 / N2;
+        System.out.println("Somma: " + somma);
+        System.out.println("Sottrazione: " + sottrazione);
+        System.out.println("Moltiplicazione: " + moltiplicazione);
+        System.out.println("Divisione: " + divisione);
     }
-
+    
     //Es 3
     //Per eseguire un ciclo che stampa i numeri da 1 a 10, si può utilizzare il seguente codice:
     public static void StampaNumeri(){
